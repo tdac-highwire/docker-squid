@@ -1,0 +1,6 @@
+version: '3'
+services:
+  squid-proxy:
+    image: tim-squid
+    ports:
+      - "3269:3128"
